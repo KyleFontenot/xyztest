@@ -10,5 +10,5 @@ Made from the basic NextJS starter, every line of CSS and HTML was hand-written.
 Updated README file for verification of pushed changes. 
 
 Thank you:
-Donielle Williams
+Donielle Williams & 
 Amy Brown Cole
