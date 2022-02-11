@@ -1,35 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# XYZ coding submission
+by Kyle Fontenot
 
-## Getting Started
+## Overview
+Within a 4-hour time limit, the goal of this challenge was to replicate a designated design given via Adobe XD. Along with the CSS reproduction, the goal was to implement a 2-page form with input validation, with multiple input types.
 
-First, run the development server:
+## Execution
+Made from the basic NextJS starter, every line of CSS and HTML was hand-written. The only part that I borrowed from a library was an email validator method from [validator](https://www.npmjs.com/package/validator). I used CSS modules for my styling approach, with all colors stored as CSS variables globally. For the form, I used React's useState for transitioning the form into the second page once the first page was submitted. I was able to implement email validation, though there were parts of the form that weren't filled in such as the toggleable "favorites" preferences and more accurate options for the date of birth fields. I also wasn't able to complete all of the stylings associated with the focus, hover, and invalid stylings of each input field. Outside of the form, I finished creating a Flex component used in the first sections of the page, and after making it most of the way finished with the "1, 2, 3" section, I decided to change my focus to the form since that would need the most attention. 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Updated README file for verification of pushed changes. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# xyztest
+Thank you:
+Donielle Williams
+Amy Brown Cole
