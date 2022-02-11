@@ -1,0 +1,15 @@
+.introduction {
+  text-transform: uppercase;
+  color: var(--color-orange-2);
+  display: block;
+}
+
+.container {
+  background-color: var(--color-blue-3);
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 12% 2%;
+  text-align: center;
+}
